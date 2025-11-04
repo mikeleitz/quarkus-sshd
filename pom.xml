@@ -24,8 +24,10 @@
     </scm>
 
     <properties>
+        <version.sshd>2.13.0</version.sshd>   <!-- ADD THIS LINE -->
+        <sshd.version>2.13.0</sshd.version>   <!-- you probably already have this -->
+
         <quarkus.version>3.20.0</quarkus.version>
-        <sshd.version>2.13.0</sshd.version>
         <version.eddsa>0.3.0</version.eddsa>
         <skipITs>true</skipITs>
     </properties>
