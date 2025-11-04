@@ -8,7 +8,7 @@
     </parent>
     <groupId>io.quarkiverse.sshd</groupId>
     <artifactId>quarkus-sshd-parent</artifactId>
-    <version>999-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
     <name>Quarkus Apache SSHD - Parent</name>
     <modules>
@@ -90,4 +90,16 @@
             </modules>
         </profile>
     </profiles>
+    <distributionManagement>
+        <repository>
+            <id>artifactory-releases</id>
+            <name>Artifactory Releases</name>
+            <url>https://jfrog.mleitz1.com/artifactory/maven-releases-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>artifactory-snapshots</id>
+            <name>Artifactory Snapshots</name>
+            <url>https://jfrog.mleitz1.com/artifactory/maven-snapshots-local</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
